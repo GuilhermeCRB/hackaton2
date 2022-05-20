@@ -1,9 +1,9 @@
 import { Router } from "express";
 
-import { testGet } from "../controllers/testController";
+import { testGet } from "../controllers/testController.js";
 
 const testRouter = Router();
 
-testRouter.get("/sign-up", testGet);
+testRouter.get("/", testGet);
 
 export default testRouter;

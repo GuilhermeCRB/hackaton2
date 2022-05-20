@@ -3,7 +3,7 @@ import cors from "cors";
 import chalk from "chalk";
 import dotenv from "dotenv";
 
-import testRouter from "./routes/testRouter";
+import testRouter from "./routes/testRouter.js";
 
 const app = express();
 dotenv.config();
